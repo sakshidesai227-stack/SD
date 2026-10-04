@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us - Fruit World</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    text-align: left;
+}
+
+.container h2 {
+    text-align: center;
+    color: #28a745;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 0;
+    margin-top: 30px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us - Fruits Hub</h1>
+    <p>We would love to hear from you!</p>
+</header>
+
+<div class="container">
+    <h2>Get in Touch</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+<footer>
+    <p>© 2026 Fruit World Website</p>
+</footer>
+
+</body>
+</html>
